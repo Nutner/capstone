@@ -1,0 +1,107 @@
+html {
+  font-size: 16px;
+}
+header{
+
+}
+/*header*/
+.content{
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  height: 64px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  height: 32px;
+  flex: 1;
+}
+.logoimg  img{
+  height: 50px;
+}
+.logo p{
+  font-size: 1.5rem;
+}
+span{
+  color: rgba(0,0,0, .5);
+}
+header nav ul{
+  display: flex;
+  padding-right: 24px;
+}
+nav ul li {
+  padding-left: 16px;
+}
+nav a{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.25rem;
+}
+header .mobile {
+  display: none;
+}
+@media only screen and (max-width: 760px){
+  .logo p{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  header .desktop{
+    display: none;
+  }
+
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+}
+/*banner*/
+.banner {
+  display: flex;
+  background-color: grey;
+
+
+}
+ .imag {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  height: 50rem;
+  width:60%;
+  margin: 32px 24px;
+  }
+.aside{
+  flex-direction: column;
+  padding-top: 12rem;
+
+
+
+}
+.uno{
+font-size: 3rem;
+line-height: 3rem;
+margin-bottom: 3rem;
+color: rgba(0,0,0, .5);
+}
+.dos{
+  font-size: 2rem;
+
+}
+.button{
+  font-size: 1.50rem;
+  text-align: center;
+  background-color: red;
+  padding: 8px;
+  margin: 3rem 2rem;
+
+
+
+}
